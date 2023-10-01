@@ -1,0 +1,145 @@
+.error-msg {
+    color: #ea5455;
+}
+.margin-t-b {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-control-position {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    z-index: 2;
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+}
+.table-card {
+    padding: 0px 5px 10px 5px;
+}
+#super-admin {
+    background-color: #ba1818;
+    color: #fff;
+}
+
+#super-admin a, #super-admin .status-section {
+    display: none;
+}
+.customer-info {
+    background-color: #fcf9f9;
+    padding: 10px 0px 10px 10px;
+}
+.status > select {
+    width: 50% !important;
+}
+
+.match-height .earnings-card .card-body .col-6:nth-child(1){
+    max-width: 40%;
+    flex: 0 0 40%;
+    padding: 0px;
+}
+.match-height .earnings-card .card-body .col-6:nth-child(2){
+max-width: 60%;
+flex: 0 0 60%;
+padding: 0px;
+}
+#dashboard-ecommerce .match-height:nth-child(2) .col-lg-4 {
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+#dashboard-ecommerce .match-height:nth-child(2) .col-lg-8 {
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+#apexcharts-toolbar > .apexcharts-toolbar {
+    margin-top: -25px !important;
+}
+.card-body #brand-chart .apexcharts-canvas .apexcharts-legend{
+    right: 0px;
+    width: 50%;
+}
+/*----Css Media Queries-----*/
+@media only screen and (max-width: 767px) {
+    #dashboard-ecommerce .match-height:nth-child(2) .col-lg-4 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    #dashboard-ecommerce .match-height:nth-child(2) .col-lg-8 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .content-body .card-body .empty-class{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .content-body .card-body .cropper-area {
+        width: 70%;
+        float: left;
+    }
+
+    .content-body .card-body .crop-btn {
+        width: 30%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .match-height .earnings-card .card-body .col-6:nth-child(2) {
+        max-width: 75%;
+        flex: 0 0 75%;
+    }
+
+    .match-height .earnings-card .card-body .col-6:nth-child(1) {
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+    .app-content .bs-validation .customer-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .bs-validation .append-options .append-value .delete-value .col-2 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-right: 0px;
+    }
+    #product-form .card .card-header .col-1 {
+        max-width: 15%;
+        left: -10px;
+        position: relative;
+    }
+
+    .xs-btn {
+        float: right;
+        top: -55px;
+    }
+    .xs-pl {
+        margin-left: 42% !important;
+    }
+    .content-header-right {
+        height: 0px;
+    }
+    .container-xxl .match-height .earnings-card .card-body .col-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .container-xxl .match-height .earnings-card .card-body .col-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+.image-icon {
+    width: 150px;
+    border: 2px solid lightslategray;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+    .lb-image {
+        width: 1000px !important;
+        height: 600px !important;
+    }
+}

@@ -1,0 +1,24 @@
+[23-Aug-2023 20:58:53 UTC] PHP Warning:  require(/home/lwmceigp/erp.lwmcapps.com/vendor/composer/../symfony/polyfill-php83/bootstrap.php): Failed to open stream: No such file or directory in /home/lwmceigp/erp.lwmcapps.com/vendor/composer/autoload_real.php on line 41
+[23-Aug-2023 20:58:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/lwmceigp/erp.lwmcapps.com/vendor/composer/../symfony/polyfill-php83/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lwmceigp/erp.lwmcapps.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/lwmceigp/erp.lwmcapps.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/lwmceigp/erp.lwmcapps.com/vendor/autoload.php(25): ComposerAutoloaderInita5c98679979e851618df43e28ddbe150::getLoader()
+#2 /home/lwmceigp/erp.lwmcapps.com/public/index.php(34): require('/home/lwmceigp/...')
+#3 {main}
+  thrown in /home/lwmceigp/erp.lwmcapps.com/vendor/composer/autoload_real.php on line 41
+[23-Aug-2023 20:58:57 UTC] PHP Warning:  require(/home/lwmceigp/erp.lwmcapps.com/vendor/composer/../symfony/polyfill-php83/bootstrap.php): Failed to open stream: No such file or directory in /home/lwmceigp/erp.lwmcapps.com/vendor/composer/autoload_real.php on line 41
+[23-Aug-2023 20:58:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/lwmceigp/erp.lwmcapps.com/vendor/composer/../symfony/polyfill-php83/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lwmceigp/erp.lwmcapps.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/lwmceigp/erp.lwmcapps.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/lwmceigp/erp.lwmcapps.com/vendor/autoload.php(25): ComposerAutoloaderInita5c98679979e851618df43e28ddbe150::getLoader()
+#2 /home/lwmceigp/erp.lwmcapps.com/public/index.php(34): require('/home/lwmceigp/...')
+#3 {main}
+  thrown in /home/lwmceigp/erp.lwmcapps.com/vendor/composer/autoload_real.php on line 41
+[23-Aug-2023 21:00:30 UTC] PHP Warning:  require(/home/lwmceigp/erp.lwmcapps.com/vendor/composer/../symfony/polyfill-php81/bootstrap.php): Failed to open stream: No such file or directory in /home/lwmceigp/erp.lwmcapps.com/vendor/composer/autoload_real.php on line 55
+[23-Aug-2023 21:00:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/lwmceigp/erp.lwmcapps.com/vendor/composer/../symfony/polyfill-php81/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lwmceigp/erp.lwmcapps.com/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/lwmceigp/erp.lwmcapps.com/vendor/composer/autoload_real.php(38): composerRequirea5c98679979e851618df43e28ddbe150()
+#1 /home/lwmceigp/erp.lwmcapps.com/vendor/autoload.php(25): ComposerAutoloaderInita5c98679979e851618df43e28ddbe150::getLoader()
+#2 /home/lwmceigp/erp.lwmcapps.com/public/index.php(34): require('/home/lwmceigp/...')
+#3 {main}
+  thrown in /home/lwmceigp/erp.lwmcapps.com/vendor/composer/autoload_real.php on line 55
