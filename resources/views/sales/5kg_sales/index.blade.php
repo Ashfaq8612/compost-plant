@@ -16,8 +16,8 @@
             <tr>
                 <th>#</th>
                 <th>Invoice Num</th>
-                <th>Quantity Sold</th>
-                <th>Price Per KG</th>
+                <th>Bags Sold</th>
+                <th>Price Per Bag</th>
                 <th>Total Price</th>
                 <th>Date</th>
                 <th>Invoice</th>
@@ -59,7 +59,6 @@
     <script>
         function confirmDelete() {
             if (window.confirm('Are you sure you want to delete this record?')) {
-                // If the user confirms, submit the form for deletion
                 document.querySelector('.del').submit();
             }
         }

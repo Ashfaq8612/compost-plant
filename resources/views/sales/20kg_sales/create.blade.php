@@ -23,7 +23,7 @@
                 <input type="text" class="form-control" id="invoice_num" name="invoice_num" required>
             </div>
             <div class="form-group col-md-6">
-                <label for="quantity_sold">Quantity Sold(Kg)</label>
+                <label for="quantity_sold">Bags Sold</label>
                 <input type="number" class="form-control" id="quantity_sold" name="quantity_sold" required>
             </div>
         </div>

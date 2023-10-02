@@ -4,7 +4,7 @@
 
 
     <!-- Start content -->
-<div class="container-fluid" >    
+<div class="container-fluid" >
             <div class="row">
                 <div class="col-md-12">
                     <div>
@@ -19,178 +19,114 @@
 
             <div class="page-content-wrapper">
                 <div class="row mt-5">
-                    <div class="col-md-4">
+                    <div class="col-xl-4 col-md-6">
                         <div class="card bg-primary mini-stat position-relative">
                             <div class="card-body">
-                                <div class="mini-stat-desc">
-                                    <h6 class="text-uppercase verti-label text-white">Waste Intake</h6>
-                                    <h6 class="text-uppercase mt-0 text-white">Waste Intake</h6>
-                                    <div class="row">
-                                        <div class="col-md-12">
+                                <h6 class="text-uppercase mt-0 text-white-50">Waste Intake</h6>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="mini-stat-desc">
                                             <div class="text-white">
-                                                <div class="row">
-
-                                                    <div class="col-md-6">
-                                                        <h5 class="mb-3 mt-0 text-left">Yesterday</h5>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h3 class="mb-3 mt-0 text-left">{{$wasteIntakesData['yesterday']->total_sum ?? 0}} : MT</h3>
-
-                                                    </div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <h5 class="mb-3 mt-0 text-left">Current Month</h5>
-
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h3 class="mb-3 mt-0 text-left">{{$wasteIntakesData['currentMonth']->total_sum ?? 0}} : MT</h3>
-
-                                                    </div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <h5 class="mb-3 mt-0 text-left">Last Month</h5>
-
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h3 class="mb-3 mt-0 text-left">{{$wasteIntakesData['lastMonth']->total_sum ?? 0}} : MT</h3>
-
-                                                    </div>
-                                                </div>
-
+                                                <p class="text-white-100">Yesterday</p>
+                                                <h5 class="mb-3 mt-0">{{$wasteIntakesData['yesterday']->total_sum ?? 0}} : MT</h5>
                                             </div>
                                         </div>
-
-
                                     </div>
-                                    <div class="text-white">
-                                        <span class="badge badge-light text-info"> +11% </span> <span class="ml-2">From previous period</span>
+                                    <div class="col-md-4">
+                                        <div class="mini-stat-desc">
+                                        <div class="text-white">
+                                            <p class="text-white-100">Current Month</p>
+                                            <h5 class="mb-3 mt-0">{{$wasteIntakesData['currentMonth']->total_sum ?? 0}} : MT</h5>
+                                        </div>
                                     </div>
-                                    <div class="mini-stat-icon">
-                                        <i class="mdi mdi-cube-outline display-2"></i>
+                                </div>
+                                <div class="col-md-4">
+                                        <div class="mini-stat-desc">
+                                        <div class="text-white">
+                                            <p class="text-white-100">Last Month</p>
+                                            <h5 class="mb-3 mt-0">{{$wasteIntakesData['lastMonth']->total_sum ?? 0}} : MT</h5>
+                                        </div>
                                     </div>
+                                </div>
+                                </div>
+                                <div class="mini-stat-icon">
+                                    <i class="mdi mdi-buffer display-2"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-
-                    <div class="col-md-4">
+                    <div class="col-xl-4 col-md-6">
                         <div class="card bg-info mini-stat position-relative">
                             <div class="card-body">
-                                <div class="mini-stat-desc">
-                                    <h6 class="text-uppercase verti-label text-white">Bail Created</h6>
-                                    <h6 class="text-uppercase mt-0 text-white">Number Of Bails Created</h6>
-                                    <div class="row">
-                                        <div class="col-md-12">
+                                <h6 class="text-uppercase mt-0 text-white-50">Bail Created</h6>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="mini-stat-desc">
                                             <div class="text-white">
-                                                <div class="row">
-
-                                                    <div class="col-md-6">
-                                                        <h5 class="mb-3 mt-0 text-left">Yesterday</h5>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h3 class="mb-3 mt-0 text-left">{{$bailCreated['yesterday']->bail_created_sum ?? 0}}</h3>
-
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <h5 class="mb-3 mt-0 text-left">Current Month</h5>
-
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h3 class="mb-3 mt-0 text-left">{{$bailCreated['currentMonth']->bail_created_sum ?? 0}}</h3>
-
-                                                    </div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <h5 class="mb-3 mt-0 text-left">Last Month</h5>
-
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h3 class="mb-3 mt-0 text-left">{{$bailCreated['lastMonth']->bail_created_sum ?? 0}}</h3>
-
-                                                    </div>
-                                                </div>
-
+                                                <p class="text-white-100">Yesterday</p>
+                                                <h5 class="mb-3 mt-0">{{$bailCreated['yesterday']->bail_created_sum ?? 0}}</h5>
                                             </div>
                                         </div>
-
-
                                     </div>
-                                    <div class="text-white">
-                                        <span class="badge badge-light text-info"> +11% </span> <span class="ml-2">From previous period</span>
+                                    <div class="col-md-4">
+                                        <div class="mini-stat-desc">
+                                        <div class="text-white">
+                                            <p class="text-white-100">Current Month</p>
+                                            <h5 class="mb-3 mt-0">{{$bailCreated['currentMonth']->bail_created_sum ?? 0}}</h5>
+                                        </div>
                                     </div>
-                                    <div class="mini-stat-icon">
-                                        <i class="mdi mdi-cube-outline display-2"></i>
+                                </div>
+                                <div class="col-md-4">
+                                        <div class="mini-stat-desc">
+                                        <div class="text-white">
+                                            <p class="text-white-100">Last Month</p>
+                                            <h5 class="mb-3 mt-0">{{$bailCreated['lastMonth']->bail_created_sum ?? 0}}</h5>
+                                        </div>
                                     </div>
+                                </div>
+                                </div>
+                                <div class="mini-stat-icon">
+                                    <i class="mdi mdi-buffer display-2"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+
+
+                    <div class="col-xl-4 col-md-6">
                         <div class="card bg-danger mini-stat position-relative">
                             <div class="card-body">
-                                <div class="mini-stat-desc">
-                                    <h6 class="text-uppercase verti-label text-white">SCM</h6>
-                                    <h6 class="text-uppercase mt-0 text-white">SCM Stock</h6>
-                                    <div class="row">
-                                        <div class="col-md-12">
+                                <h6 class="text-uppercase mt-0 text-white-50">SCM Stock</h6>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="mini-stat-desc">
                                             <div class="text-white">
-                                                <div class="row">
-
-                                                    <div class="col-md-6">
-                                                        <h5 class="mb-3 mt-0 text-left">Yesterday</h5>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h3 class="mb-3 mt-0">{{$solidMaterial['yesterday']->total_scm_received_sum ?? 0}} : MT</h3>
-
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <h5 class="mb-3 mt-0 text-left">Current Month</h5>
-
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h3 class="mb-3 mt-0 text-left">{{$solidMaterial['currentMonth']->total_scm_received_sum ?? 0}}  : MT</h3>
-
-                                                    </div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <h5 class="mb-3 mt-0 text-left">Last Month</h5>
-
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h3 class="mb-3 mt-0 text-left">{{$solidMaterial['lastMonth']->total_scm_received_sum ?? 0}} : MT</h3>
-
-                                                    </div>
-                                                </div>
-
+                                                <p class="text-white-100">Yesterday</p>
+                                                <h5 class="mb-3 mt-0">{{$solidMaterial['yesterday']->total_scm_received_sum ?? 0}} : MT</h5>
                                             </div>
                                         </div>
-
-
                                     </div>
-                                    <div class="text-white">
-                                        <span class="badge badge-light text-info"> +11% </span> <span class="ml-2">From previous period</span>
+                                    <div class="col-md-4">
+                                        <div class="mini-stat-desc">
+                                        <div class="text-white">
+                                            <p class="text-white-100">Current Month</p>
+                                            <h5 class="mb-3 mt-0">{{$solidMaterial['currentMonth']->total_scm_received_sum ?? 0}} : MT</h5>
+                                        </div>
                                     </div>
-                                    <div class="mini-stat-icon">
-                                        <i class="mdi mdi-cube-outline display-2"></i>
+                                </div>
+                                <div class="col-md-4">
+                                        <div class="mini-stat-desc">
+                                        <div class="text-white">
+                                            <p class="text-white-100">Last Month</p>
+                                            <h5 class="mb-3 mt-0">{{$solidMaterial['lastMonth']->total_scm_received_sum ?? 0}} : MT</h5>
+                                        </div>
                                     </div>
+                                </div>
+                                </div>
+                                <div class="mini-stat-icon">
+                                    <i class="mdi mdi-buffer display-2"></i>
                                 </div>
                             </div>
                         </div>
